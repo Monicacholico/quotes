@@ -13,7 +13,7 @@
 
 
 function executeApi() {
-    const url = "http://localhost:3000/";
+    const url = "http://localhost:3000/quotes";
     const options = {
         method: 'POST',
         headers: {
