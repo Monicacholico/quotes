@@ -34,7 +34,12 @@ quotes = [
         text: "If women had been more prominently talked about in computing, both in the history books and schools, we literally would not have the lack of women programmers that we do today.",
         author: "Reshman Saujani",
         color: "lightcoral"
-    }
+    },
+    {
+        "text": "This is a test for a new quote",
+        "author": "Monica Lopez",
+        "color": "crimson"
+      }
 ];
 
 function init() {
