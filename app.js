@@ -13,8 +13,8 @@
 
 
 function executeApi() {
-    const url = "http://localhost:3000/quotes";
-    const option = {
+    const url = "http://localhost:3000/";
+    const options = {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -22,6 +22,10 @@ function executeApi() {
         body: JSON.stringify(quote)
     };
     return fetch(url, options).then(
-        response => response.json());
-};
+        response => {
+            response.json()
+        }).then (data => {
+            console.log(data.results);
+        })
 
+}
